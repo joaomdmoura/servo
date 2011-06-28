@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    clients:
+      title: Clients
+  admin:
+    clients:
+      actions:
+        create_new: CREATE NEW Client
+        reorder: REORDR Clients
+        reorder_done: DUN REORDERIN Clients
+      records:
+        title: Clients
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Clients YET. CLICK "CREATE NEW Client" 2 ADD UR FURST client.
+      client:
+        view_live_html: VIEW DIS client LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS client
+        delete: REMOOV DIS client FOREVR
+  clients:
+    show:
+      other: OTHR Clients

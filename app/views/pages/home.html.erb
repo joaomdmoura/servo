@@ -1,0 +1,14 @@
+  <body>
+    <div id="login" align="center">
+      <img src="/images/servo_logo.png" />
+      <form action="/client/login" method="POST">
+        <input class="field" id="login_field" name="login" type="text" value="LOGIN" size="30px" onblur="if(this.value == '') { this.value='LOGIN'}" onfocus="if (this.value == 'LOGIN') {this.value=''}" />
+        <br />
+        <input class="field" id="pass_field" name="pass" type="password" value="PASSWORD" size="30px" onblur="if(this.value == '') { this.value='PASSWORD'}" onfocus="if (this.value == 'PASSWORD') {this.value=''}" />
+        <br />
+        <input id="login_btn" name="login_btn" type="submit" value="" />
+      </form>
+    </div>
+  </body>
+</html>
+

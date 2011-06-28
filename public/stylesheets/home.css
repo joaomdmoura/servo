@@ -1,0 +1,36 @@
+body
+{
+  background : url("/images/background.jpg") repeat-x #ffffff;
+}
+#login img
+{
+  position : relative;
+  top : 100px;
+}
+#login form
+{
+  position : relative;
+  top : 125px;
+  margin-left : 50px;
+}
+#login .field
+{
+  color : #b8b8b8;
+  width : 175px;
+  height : 40px;
+  border : none;
+  padding-left : 12px;
+  padding-right : 15px;
+  background : url("/images/field.png") no-repeat;
+}
+#login #login_btn
+{
+  position : relative;
+  left : 65px;
+  top : 5px;
+  cursor : pointer;
+  width : 64px;
+  height: 24px;
+  background : url("/images/login_btn.png") no-repeat;
+  border : none;
+}
