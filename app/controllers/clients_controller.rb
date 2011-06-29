@@ -22,10 +22,9 @@ class ClientsController < ApplicationController
     pass = params[:pass]
     @client = Client.find_by_email_and_password( user, pass )
     if @client
-      puts @client
+      redirect_to "/dashboard"
     else
-      url = root_path + "?error=Nenhum%20usu%C3%A1rio%20foi%20encontrado"
-      redirect_to url
+      redirect_to root_path :error => "wrong login or password."
     end
   end
 
