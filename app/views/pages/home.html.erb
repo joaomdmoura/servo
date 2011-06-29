@@ -9,6 +9,11 @@
         <input id="login_btn" name="login_btn" type="submit" value="" />
       </form>
     </div>
+	<% if params[:error] %>
+	 	<div class="error">
+			<%= params[:error] %>
+		</div>
+	<% end %>
   </body>
 </html>
 
